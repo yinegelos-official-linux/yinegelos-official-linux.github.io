@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YinegelOS | Resmi Web Sitesi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <i data-lucide="monitor"></i> Yinegel<span>OS</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#kurulum">Kurulum</a></li>
+                <li><a href="#teknik">Teknik Yapı</a></li>
+                <li><a href="https://github.com/YinegelOS" target="_blank">GitHub</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h1>Dostunuz YinegelOS sizin işinizi kolaylaştırır.</h1>
+            <p class="subtitle">Debian 12 ve üstü sistemlerde kullanılabilen, stabilite odaklı özel yapılandırma.</p>
+            <div class="hero-btns">
+                <a href="https://drive.google.com/file/d/1xj7MeCx-6jjv_hQpMF2NiPu69iDJGnGU/view?usp=sharing" target="_blank" class="btn-primary">
+                    <i data-lucide="download"></i> YinegelOS İmajını İndir
+                </a>
+                <a href="https://www.debian.org/distrib/" target="_blank" class="btn-secondary">
+                    <i data-lucide="external-link"></i> Debian İndir
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="kurulum" class="info-section">
+        <div class="container">
+            <div class="content-box">
+                <h2>Kurulum Hakkında Önemli Not</h2>
+                <p>YinegelOS, hazır bir Debian kurulumu üzerine inşa edilen özel bir yapıdır. En iyi deneyimi elde etmek için sistemin <strong>Debian 12 ve üstü</strong> sürümlerde kullanılması gerekmektedir.</p>
+                <p>Önce temel işletim sisteminizi kurun, ardından YinegelOS özelleştirmelerini sisteminize dahil edin.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="teknik" class="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Teknik Özellikler</h2>
+            </div>
+            <div class="grid">
+                <div class="feature-card">
+                    <i data-lucide="shield" class="icon"></i>
+                    <h3>Debian Tabanlı Güven</h3>
+                    <p>Dünyanın en stabil işletim sistemlerinden biri olan Debian altyapısı sayesinde kesintisiz bir deneyim sunar.</p>
+                </div>
+                <div class="feature-card">
+                    <i data-lucide="box" class="icon"></i>
+                    <h3>Squashfs Sistemi</h3>
+                    <p>Sistem dosyaları Squashfs imaj yapısı ile korunur, performansı artırır ve sistem boyutunu optimize eder.</p>
+                </div>
+                <div class="feature-card">
+                    <i data-lucide="settings-2" class="icon"></i>
+                    <h3>Özelleştirilmiş Initramfs</h3>
+                    <p>Önyükleme aşamasında YinegelOS'a özel yapılandırmalar devreye girerek sistemin sorunsuz açılmasını sağlar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 YinegelOS Projesi. Geliştirici: Abdullah Yiğit KARAKUŞ</p>
+            <p class="slogan">"Dostunuz YinegelOS sizin işinizi kolaylaştırır."</p>
+        </div>
+    </footer>
+
+    <script>lucide.createIcons();</script>
+</body>
+</html>
